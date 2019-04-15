@@ -1,0 +1,50 @@
+  963  grep 05,TMAX 1800.csv
+  964  cat 1800.csv | grep 05,TMAX 1800.csv | cut -d, -f4
+  965  grep [01-05]05,TMAX 1800.csv
+  966  grep [1-5]05,TMAX 1800.csv
+  967  grep [1-5]05,TMAX 1800.csv
+  968  grep 1800[1-5]05,TMAX 1800.csv
+  969  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | cut -d, -f4
+  970  man wc
+  971  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | cut -d, -f4 | sort -n | tail -2
+  972  cat 1800.csv | grep ITE00100554,1800[1-5]05,TMAX 1800.csv
+  973  cat 1800.csv | grep -l ITE00100554,1800[1-5]05,TMAX 1800.csv
+  974  cat 1800.csv | grep -x ITE00100554,1800[1-5]05,TMAX 1800.csv
+  975  cat 1800.csv | grep -x ITE00100554,[1-5]05,TMAX 1800.csv
+  976  cat 1800.csv | grep ITE00100554,[1-5]05,TMAX 1800.csv
+  977  cat 1800.csv | grep ITE00100554,1800
+  978  cat 1800.csv | grep ITE00100554,18000[1-5]
+  979  cat 1800.csv | grep ITE00100554,1800[1-5]
+  980  cat 1800.csv | grep ITE00100554,1800[1-5]05
+  981  cat 1800.csv | grep ITE00100554,1800[01-05]05
+  982  cat 1800.csv | grep ITE00100554,1800[01-05]05,
+  983  cat 1800.csv | grep ITE00100554,1800[1-5]05,
+  984  cat 1800.csv | grep ITE00100554,*[1-5]05
+  985  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554
+  986  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut d, -f4 | sort -n | tail -2
+  987  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut d, -f4 
+  988  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut d, -f4 1800.csv
+  989  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut -d, -f4
+  990  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut -d, -f4 | tail -2
+  991  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut -d, -f4 | sort -n
+  992  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 
+  993  cat 1800.csv | grep \*[25]05,TMAX 1800.csv | grep ITE00100554 
+  994  cat 1800.csv | grep \*[25]05,TMAX 1800.csv
+  995  cat grep 0205,TMAX 1800.csv grep 0505,TMAX 1800.csv
+  996  cat 1800.csv | grep [1-5]05,TMAX 1800.csv | grep ITE00100554 | cut -d, -f4 | sort -n
+  997  q
+  998  quit
+  999  exit
+ 1000  qrsh
+ 1001  ls
+ 1002  cd introscicomp2014/UNIX/Data/Temperatures/
+ 1003  ls
+ 1004  nano 1800.csv
+ 1005  cat 1800.csv | grep 18000205,TMAX 1800.csv
+ 1006  cat 1800.csv | grep 18000205,TMAX 1800.csv | cut -d, -f4 | sort -n | tail -1
+ 1007  cat 1800.csv | grep 18000205,TMAX 1800.csv | cut -d, -f4 | sort -n | tail -1 | echo "for February 5th"
+ 1008  cat 1800.csv | grep 18000205,TMAX 1800.csv | cut -d, -f4 | sort -n | echo tail -1 "for February 5th"
+ 1009  cat 1800.csv | grep 18000205,TMAX 1800.csv | cut -d, -f4 | sort -n | tail -1 | echo "79 for February 5th"
+ 1010  cat 1800.csv | grep 18000505,TMAX 1800.csv | cut -d, -f4 | sort -n 
+ 1011  cat 1800.csv | grep 18000505,TMAX 1800.csv | cut -d, -f4 | sort -n | tail -1 | echo "225 for May 5th"
+ 1012  history | tail -n 50 > For_Daniel_realData.txt

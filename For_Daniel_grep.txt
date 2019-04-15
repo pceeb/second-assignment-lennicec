@@ -1,0 +1,30 @@
+  802  touch File2.txt
+  803  touch File3.txt
+  804  touch File4.txt
+  805  touch File1.csv
+  806  touch File2.csv
+  807  touch File3.csv
+  808  touch File4.csv
+  809  touch AnotherFile.csv
+  810  touch AnotherFile.txt
+  811  ls 
+  812  ls | wc -l
+  813  history | tail in 30 > For_Daniel_Wildcard.txt
+  814  history | tail -n 30 > For_Daniel_Wildcard.txt
+  815  ls
+  816  nano For_Daniel_Wildcard.txt 
+  817  cd ../
+  818  wget http://www.cep.unep.org/pubs/legislation/spawannxs.txt
+  819  head -n 50 spawannxs.txt 
+  820  grep Orchidaceae spawannxs.txt
+  821  grep -c Orchidaceae spawannxs.txt
+  822  grep Falco spawannxs.txt 
+  823  grep -i Falco spawannxs.txt 
+  824  grep -i ara spawannxs.txt 
+  825  grep -i -w ara spawannxs.txt 
+  826  grep -i -w -A l ara spawannxs.txt 
+  827  grep -i -w -A 1 ara spawannxs.txt 
+  828  grep -i -w -A -n 1 ara spawannxs.txt 
+  829  grep -i -w -n -A 1 ara spawannxs.txt 
+  830  grep -i -w -v ara spawannxs.txt 
+  831  history | tail -n 30 > For_Daniel_grep.txt

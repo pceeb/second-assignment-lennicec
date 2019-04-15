@@ -1,0 +1,11 @@
+$ head -13900 otoos10.txt > darwin_prep.txt
+$ nano darwin_prep.txt 
+$ tail -13636 darwin_prep.txt > darwin.txt
+$ nano darwin.txt 
+$ rm darwin_prep.txt
+$ grep -i -w evolution darwin.txt |wc -l
+$ grep -i -w evolved darwin.txt |wc -l
+$ grep -i -w Wallace darwin.txt |wc -l
+$ grep -i -w "natural selection" darwin.txt |wc -l
+
+

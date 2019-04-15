@@ -1,0 +1,30 @@
+  833  mv For_Daniel_grep.txt /Sandbox
+  834  cd Sandbox/
+  835  pwd
+  836  cd ../
+  837  mv For_Daniel_grep.txt /u/home/class/c177/c177-04/introscicomp2014/UNIX/Sandbox
+  838  cd Sandbox/
+  839  ls
+  840  cd ../
+  841  mv spawannxs.txt /u/home/class/c177/c177-04/introscicomp2014/UNIX/Sandbox
+  842  cd Sandbox/
+  843  mkdir TestFind
+  844  cd TestFind/
+  845  mkdir -p Dir1/Dir11/Dir111
+  846  mkdir Dir2
+  847  mkdir Dir3
+  848  touch Dir1/File1.txt
+  849  touch Dir1/File1.csv
+  850  touch Dir1/File1.tex
+  851  touch Dir2/File2.txt
+  852  touch Dir2/File2.csv
+  853  touch Dir2/File2.tex
+  854  touch Dir1/Dir11/Dir111/File111.txt
+  855  touch Dir3/File3.tex
+  856  find . -name "File1.txt"
+  857  find . -name "*.txt"  
+  858  find . -maxdepth 2 -name "*.txt" 
+  859  find . -maxdepth 2 -not -name "*.txt"
+  860  find . -type d 
+  861  find . -type f -exec ls -s {} \; | sort -n | head -10 
+  862  history | tail -n 30 > For_Daniel_find.txt

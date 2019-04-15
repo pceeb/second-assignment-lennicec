@@ -1,0 +1,30 @@
+  785  mkdir TestDirectory
+  786  touch TestDirectory/Test.txt
+  787  rmdir TestDirectory
+  788  rm TestDirectory/Test.txt
+  789  rmdir TestDirectory/
+  790  ls
+  791  echo "My first line." > test.txt
+  792  ls
+  793  cat test.txt 
+  794  echo "My second line." >> test.txt 
+  795  ls / >> ListRootDir.txt
+  796  ls
+  797  nano ListRootDir.txt 
+  798  cat ListRootDir.txt 
+  799  mkdir TestWild
+  800  cd TestWild/
+  801  touch File1.txt
+  802  touch File2.txt
+  803  touch File3.txt
+  804  touch File4.txt
+  805  touch File1.csv
+  806  touch File2.csv
+  807  touch File3.csv
+  808  touch File4.csv
+  809  touch AnotherFile.csv
+  810  touch AnotherFile.txt
+  811  ls 
+  812  ls | wc -l
+  813  history | tail in 30 > For_Daniel_Wildcard.txt
+  814  history | tail -n 30 > For_Daniel_Wildcard.txt
